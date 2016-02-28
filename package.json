@@ -24,6 +24,6 @@
     }
   },
   "deprecated": {
-    "atom": "atom-new-views"
+    "deprecation-checker": "isDeprecated"
   }
 }
