@@ -1,5 +1,25 @@
-# my-package package
+# deprecation-notice package
 
-A short description of your package.
+This is a package that helps with notifying someone that a module they are using is deprecated. Its uses the atom-linter will lint the current files require statements
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+> This is still super early development expect api changes
+
+## Usage
+
+This handles your projects deprecated modules. So in the root directory of your project in the package.json add the object deprecated.
+
+```json
+...
+    "deprecated": {
+        "FileInputOld": "NewHotness"
+    }
+...
+```
+
+The key is the file name that is deprecated. Plz omit extension unless the reference to the file in the require statements always will have the extension. `FileInputOld` in the example will become `/FileInputOld/gi` when matching the required statements. The value of the key will be the intended replacement for the deprecated file if there is none just leave the value as `null`.
+
+> add in screen shot. after fixing tooltip positioning
+
+## Future
+
+Better support for custom deprecation messages. A better place for the config.
