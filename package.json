@@ -1,7 +1,7 @@
 {
   "name": "deprecation-notice",
   "main": "./lib/deprecation-notice",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A way to add hints that modules being used are currently deprecated",
   "keywords": [],
   "repository": "https://github.com/jcblw/atom-deprecation-notice",
