@@ -1,5 +1,7 @@
 # deprecation-notice package
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/atom-deprecation-notice.svg)](https://greenkeeper.io/)
+
 This is a package that helps with notifying someone that a module they are using is deprecated. Its uses the atom-linter will lint the current files require statements
 
 > This is still super early development expect api changes
